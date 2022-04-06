@@ -9,8 +9,10 @@ import { registerBlockType } from '@wordpress/blocks';
 import './style.scss';
 import edit from './edit';
 import save from './save';
+import attributes from './attributes.json';
 
 registerBlockType( 'xwp/country-card', {
 	edit,
 	save,
+	attributes,
 } );

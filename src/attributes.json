@@ -1,0 +1,10 @@
+{
+    "countryCode": {
+        "type": "string",
+        "default": ""
+    },
+    "relatedPosts": {
+        "type": "array",
+        "default": []
+    }
+}
